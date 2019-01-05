@@ -1,5 +1,6 @@
 var Discord = require('discord.js');
 var client = new Discord.Client();
+var FFMPEG = require('FFMPEG');
 
 client.on('message', message => {
   if (!message.guild) return;
